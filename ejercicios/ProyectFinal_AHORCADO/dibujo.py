@@ -54,4 +54,12 @@ AHORCADO = ['''
                 =========''']
 # Define función vidas, la cual regresa la lista AHORCADO
 def vidas(vidas):
+      """_dibuja vidas_
+
+      Args:
+          vidas (_str_): _ letra_
+
+      Returns:
+          _str_: _ dibujo del ahorcado con guiones _
+      """
       return AHORCADO[len(AHORCADO)-vidas-1]
