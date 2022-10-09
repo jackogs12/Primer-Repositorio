@@ -1,4 +1,4 @@
-#En esta parte se indica de que archivois se estan importando funciones, clases, dibujo del ahorcado
+#En esta parte se indica de que archivos se estan importando funciones, clases, dibujo del ahorcado
 import opcode
 from funciones import *
 from dibujo import vidas

@@ -13,7 +13,7 @@ def obtenPalabra(listadoPalabras):
 
 #crea un string, por cada letra de la palabra verifica si esa letra ya fue adivinada en otro caso, pone "_".
 def proceso(palabra:str, letrasAdivinadas:str)->str:
-    """_proceso del desarrollo del juego_
+    """_proceso_
 
     Args:
         palabra (str): _recibe una letra_
@@ -52,7 +52,7 @@ def leerLetra(letrasAdivinadas):
 
 #retorna False si encuentra una letra que está en la palabra a adivinar.En otro caso retorna True porque el jugador ya adivinó la palabra correcta.
 def palabraCompleta(palabra, letrasAdivinadas):
-    """_palabra completa adivinada_
+    """_palabra completa_
 
     Args:
         palabra (_str_): _letra a ser adivinada_
